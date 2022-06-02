@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 
-public class StreamMain {
+public class StreamMainMethods {
 
     public static void main(String[] args) throws IOException {
         //1.---integer Stream
