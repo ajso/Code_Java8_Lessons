@@ -19,7 +19,7 @@ flatMap() - used for transformation and flattering data. i.e flatMap() = map()+f
       -Does mapping and flattering.
       -performs data transformation from stream of stream to stream.
  */
-public class J8StreamApiMapFlatMap {
+public class MapFlatMap {
 
     public static void main(String[] args) {
         //implementing map() and flattering
