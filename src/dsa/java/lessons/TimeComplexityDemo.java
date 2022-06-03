@@ -1,4 +1,4 @@
-package datastructures.algorithm.java.lessons;
+package dsa.java.lessons;
 
 public class TimeComplexityDemo {
 
