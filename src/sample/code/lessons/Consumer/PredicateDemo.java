@@ -1,4 +1,4 @@
-package sample.code.lessons.ConsumerInterface;
+package sample.code.lessons.Consumer;
 
 import java.util.Arrays;
 import java.util.List;

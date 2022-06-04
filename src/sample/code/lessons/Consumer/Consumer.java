@@ -1,11 +1,10 @@
-package sample.code.lessons.ConsumerInterface;
+package sample.code.lessons.Consumer;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Flow;
-import java.util.function.Consumer;
 
-class ConsumerDemo {
+
+public class Consumer {
 
 //    @Override
 //    public void accept(integer integer) {
@@ -26,7 +25,7 @@ public static void main(String[] args) {
     List<Integer> list1 = Arrays.asList(1,2,3,4,5,6,7);
 //    list1.stream().forEach(tPublisher); //this will print the list up to 12 times
 //    Or
-    list1.stream().forEach(t->System.out.println("Printing: "+ t)); //this will print the same thing.
+    list1.forEach(t->System.out.println("Printing: "+ t)); //this will print the same thing.
 
 }
 

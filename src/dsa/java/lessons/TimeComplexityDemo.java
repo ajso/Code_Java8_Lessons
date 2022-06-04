@@ -12,17 +12,17 @@ public class TimeComplexityDemo {
     }
     //Takes almost no time
 
-//    private int findSum(int n) {
-//        return n*(n +1)/2;
-//    }
+    private int findSum(int n) {
+        return n*(n +1)/2;
+    }
 
 
     //Takes some time.
-    public int findSum(int n){
-        int sum=0;
-        for(int i=1; i<=n; i++){
-            sum = sum+i;
-        }
-        return sum;
-    }
+//    public int findSum(int n){
+//        int sum=0;
+//        for(int i=1; i<=n; i++){
+//            sum = sum+i;
+//        }
+//        return sum;
+//    }
 }
