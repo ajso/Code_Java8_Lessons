@@ -1,4 +1,4 @@
-package sample.code.lessons.Streams;
+package sample.code.lessons.MapFlapMap;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package sample.code.lessons.Streams;
+package sample.code.lessons.MapFlapMap;
 
 import java.io.IOException;
 import java.nio.file.Files;

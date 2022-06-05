@@ -3,7 +3,9 @@ package sample.code.lessons.Lambdas;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 /*
 This will return the books base in the sorting order.
@@ -26,6 +28,13 @@ public class BookService {
 
         //This also works fine.
 //        Collections.sort(bk, ((o1, o2) ->o1.getBook_name().compareTo(o2.getBook_name()) ));
+//==============================Result Mapped.==============================
+        System.out.println("==============================Result Mapped.==============================");
+        List<String> collect_bks = bk.stream().map(books -> books.getBook_name().toUpperCase(Locale.ROOT)).collect(Collectors.toList());
+        System.out.println(collect_bks);
+        System.out.println("===================================End of map============================= ");
+//===================================End of map=============================
+
 
         //Or This also works fine.
         Collections.sort(bk, (Comparator.comparing(Books::getBook_name)));
@@ -36,6 +45,8 @@ public class BookService {
     public static void main(String[] args) {
         List<Books> booksInSort = new BookService().getBooksInSort();
         System.out.println(booksInSort);
+
+
     }
 
 }
